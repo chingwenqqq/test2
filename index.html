@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>test2-grid-system</title>
+    <style type="text/css">
+
+    [class*="col-"] {
+        padding: 15px;
+        box-sizing: border-box;
+    }
+    .col-1 {width: 8.33%;}
+    .col-2 {width: 16.66%;}
+    .col-3 {width: 25%;}
+    .col-4 {width: 33.33%;}
+    .col-5 {width: 41.66%;}
+    .col-6 {width: 50%;}
+    .col-7 {width: 58.33%;}
+    .col-8 {width: 66.66%;}
+    .col-9 {width: 75%;}
+    .col-10 {width: 83.33%;}
+    .col-11 {width: 91.66%;}
+    .col-12 {width: 100%;}
+
+    .line1 {
+        display: inline-block;
+        margin-left: 10px;
+        height: 60px;
+        border-radius: 30px;
+    }
+    .first1 {
+        background: linear-gradient(to right, rgba(255,0,0,1), rgba(255,0,0,0.5)); 
+    }
+    .second1 {
+        background: linear-gradient(to right, rgba(255,0,0,0.5), rgba(255,100,0,1)); 
+    }
+    .third1 {
+        background: linear-gradient(to right, rgba(255,100,0,1), rgba(255,150,0,1));
+    }
+    .line2 {
+        display: inline-block;
+        margin-left: 10px;
+        margin-top: 30px;
+        height: 60px;
+        border-radius: 30px;
+    } 
+    .first2 {
+          background: linear-gradient(to right, rgba(255,100,0,1), rgba(255,200,0,1)); 
+    }
+    .second2 {
+        background: linear-gradient(to right, rgba(255,200,0,1), rgba(255,255,0,1)); 
+    }
+    .third2 {
+        background: linear-gradient(to right, rgba(255,255,0,1), rgba(255,255,200,1)); 
+    }
+    .line3 {
+        display: inline-block;
+        margin-left: 10px;
+        margin-top: 30px;
+        height: 60px;
+        border-radius: 30px;
+    } 
+    .first3 {
+          background: linear-gradient(to right, rgba(255,255,0,1), rgba(200,255,255,1)); 
+    }
+    .second3 {
+        background: linear-gradient(to right, rgba(200,255,255,1), rgba(100,255,255,1)); 
+    }
+    .third3 {
+        background: linear-gradient(to right, rgba(100,255,255,1), rgba(0,255,255,1)); 
+    }
+    .line4 {
+        display: inline-block;
+        margin-left: 10px;
+        margin-top: 30px;
+        height: 60px;
+        border-radius: 30px;
+    } 
+    .first4 {
+          background: linear-gradient(to right, rgba(0,255,255,1), rgba(0,200,255,1)); 
+    }
+    .second4 {
+        background: linear-gradient(to right, rgba(0,200,255,1), rgba(0,100,255,1)); 
+    }
+    .third4 {
+        background: linear-gradient(to right, rgba(0,100,255,1), rgba(0,50,255,1)); 
+    }
+    .forth4 {
+        background: linear-gradient(to right, rgba(0,100,255,1), rgba(0,50,255,1)); 
+    }
+    </style>
+</head>
+<body>
+<div class="wrapper">
+    <div class="content">
+        <div class="line1 first1 col-3"></div>
+        <div class="line1 second1 col-2"></div> 
+        <div class="line1 third1 col-1"></div>       
+    </div>
+    <div class="content">
+        <div class="line2 col-2"></div>
+        <div class="line2 first2 col-3"></div>
+        <div class="line2 second2 col-2"></div>
+        <div class="line2 third2 col-1"></div>          
+    </div>
+    <div class="content">
+        <div class="line3 col-1"></div>
+        <div class="line3 first3 col-3"></div>
+        <div class="line3 second3 col-2"></div>
+        <div class="line3 third3 col-1"></div>          
+    </div>
+    <div class="content">
+        <div class="line4 col-3"></div>
+        <div class="line4 first4 col-3"></div>
+        <div class="line4 second4 col-2"></div>
+        <div class="line4 third4 col-1"></div>          
+    </div>
+
+</div>
+
+</body>
+</html>
